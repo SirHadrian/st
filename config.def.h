@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font =
-    "CaskaydiaCove Nerd Font Mono:pixelsize=18:antialias=true:autohint=true";
+    "CaskaydiaCove Nerd Font Mono:pixelsize=20:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -95,7 +95,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.5;
+float alpha = 0.3;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
